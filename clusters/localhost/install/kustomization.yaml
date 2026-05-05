@@ -9,3 +9,6 @@ labels:
 
 resources:
 - ../../../apps/dt26-ambulance-ufe
+
+components: 
+- ../../../components/version-developers
