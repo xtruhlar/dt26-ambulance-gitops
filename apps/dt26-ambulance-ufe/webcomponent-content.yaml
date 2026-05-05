@@ -4,7 +4,10 @@ metadata:
   name: dt26-ambulance-ufe-content
 spec:
   microFrontend: dt26-ambulance-ufe
-  element: dt26-remote-consultation-list
+  element: dt26-ambulance-ufe-app
+  attributes:
+    - name: base-path
+      value: /dt26-ambulance-ufe/
   displayRules:
     - allOf:
       - context-name: main-content
