@@ -1,0 +1,11 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: dt26-ambulance-ufe-content
+spec:
+  microFrontend: dt26-ambulance-ufe
+  element: dt26-remote-consultation-list
+  displayRules:
+    - allOf:
+      - context-name: main-content
+      - path: "^(\\.?/)?dt26-ambulance-ufe(/.*)?$"
