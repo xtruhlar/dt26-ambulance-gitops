@@ -1,0 +1,8 @@
+apiVersion: image.toolkit.fluxcd.io/v1
+kind: ImageRepository
+metadata:
+  name: dt26-ambulance-webapi
+  namespace: dt26-hospital
+spec:
+  image: davidtruhlar7/dt26-ambulance-webapi
+  interval: 1m0s

@@ -1,0 +1,12 @@
+apiVersion: wac-fiit.github.io/v1alpha1
+kind: Project
+metadata:
+  name: dt26-ambulance-wl
+spec:
+  title: "Vzdialená konzultácia dt26"
+  description: "Spravuje vzdialené konzultácie a komunikačné protokoly pre ambulanciu"
+  authors: "David Truhlar"
+  azureLink: "https://wac-hospital.westeurope.cloudapp.azure.com/fea"
+  frontendRepoUrl: "https://github.com/xtruhlar/dt26-ambulance-ufe"
+  backendRepoUrl: "https://github.com/xtruhlar/dt26-ambulance-webapi"
+  gitopsRepoUrl: "https://github.com/xtruhlar/dt26-ambulance-gitops"

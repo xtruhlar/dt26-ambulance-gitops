@@ -1,0 +1,9 @@
+apiVersion: kustomize.config.k8s.io/v1alpha1
+kind: Component
+images:
+- name: davidtruhlar7/dt26-ambulance-ufe
+  newName: davidtruhlar7/dt26-ambulance-ufe
+  newTag: 1.0.0
+- name: davidtruhlar7/dt26-ambulance-webapi
+  newName: davidtruhlar7/dt26-ambulance-webapi
+  newTag: 1.0.0
