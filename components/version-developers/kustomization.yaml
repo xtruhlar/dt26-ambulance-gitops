@@ -4,3 +4,6 @@ images:
 - name: davidtruhlar7/dt26-ambulance-ufe
   newName: davidtruhlar7/dt26-ambulance-ufe # {"$imagepolicy":  "dt26-hospital:dt26-ambulance-ufe:name"}
   newTag: main.20260505.1956 # {"$imagepolicy": "dt26-hospital:dt26-ambulance-ufe:tag"}
+- name: davidtruhlar7/dt26-ambulance-webapi
+  newName: davidtruhlar7/dt26-ambulance-webapi # {"$imagepolicy":  "dt26-hospital:dt26-ambulance-webapi:name"}
+  newTag: main # {"$imagepolicy": "dt26-hospital:dt26-ambulance-webapi:tag"}

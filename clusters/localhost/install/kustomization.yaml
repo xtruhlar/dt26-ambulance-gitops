@@ -9,6 +9,11 @@ labels:
 
 resources:
 - ../../../apps/dt26-ambulance-ufe
+- ../../../apps/dt26-ambulance-webapi
 
-components: 
+patches:
+- path: patches/ambulance-webapi.service.yaml
+
+components:
 - ../../../components/version-developers
+- https://github.com/xtruhlar/dt26-ambulance-webapi//deployments/kustomize/components/mongodb

@@ -14,4 +14,6 @@ resources:
 - git-repository.yaml
 - dt26-ambulance-ufe.image-repository.yaml
 - dt26-ambulance-ufe.image-policy.yaml
+- dt26-ambulance-webapi.image-repository.yaml
+- dt26-ambulance-webapi.image-policy.yaml
 - image-update-automation.yaml
