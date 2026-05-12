@@ -3,7 +3,7 @@ kind: Component
 images:
 - name: davidtruhlar7/dt26-ambulance-ufe
   newName: davidtruhlar7/dt26-ambulance-ufe
-  newTag: 1.1.0
+  newTag: main.20260512.1514
 - name: davidtruhlar7/dt26-ambulance-webapi
   newName: davidtruhlar7/dt26-ambulance-webapi
-  newTag: 1.0.0
+  newTag: main.20260512.1525
