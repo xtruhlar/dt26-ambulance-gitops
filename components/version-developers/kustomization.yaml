@@ -3,7 +3,7 @@ kind: Component
 images:
 - name: davidtruhlar7/dt26-ambulance-ufe
   newName: davidtruhlar7/dt26-ambulance-ufe # {"$imagepolicy":  "dt26-hospital:dt26-ambulance-ufe:name"}
-  newTag: main.20260512.1406 # {"$imagepolicy": "dt26-hospital:dt26-ambulance-ufe:tag"}
+  newTag: main.20260512.1514 # {"$imagepolicy": "dt26-hospital:dt26-ambulance-ufe:tag"}
 - name: davidtruhlar7/dt26-ambulance-webapi
   newName: davidtruhlar7/dt26-ambulance-webapi # {"$imagepolicy":  "dt26-hospital:dt26-ambulance-webapi:name"}
   newTag: main.20260506.1247 # {"$imagepolicy": "dt26-hospital:dt26-ambulance-webapi:tag"}
